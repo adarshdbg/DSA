@@ -1,13 +1,15 @@
 //General Sorting
 
-#include<stdio.h>
+#include<bits/stdc++.h>
 
-void swap(int *p, int *q)
-{
-    int t = *p;
-    *p = *q;
-    *q = t;
-}
+
+// void swap(int *p, int *q)
+// {
+//     int t = *p;
+//     *p = *q;
+//     *q = t;
+// }
+
 
 void ssort(int *p, int n)
 {
