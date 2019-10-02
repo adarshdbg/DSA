@@ -27,8 +27,8 @@ char rev(char c)
 		return '(';
 	if(c=='}')
 		return '{';
-	if(c=='>')
-		return '<';
+	// if(c=='>')
+	// 	return '<';
 	return '[';
 }
 
